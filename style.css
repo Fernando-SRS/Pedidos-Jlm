@@ -1,0 +1,83 @@
+body {
+    margin: 10px;
+    background-color: rgb(214, 213, 211);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_button {
+    width: 100vw;
+    text-align: center;
+}
+
+.clonar {
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(166, 173, 173);
+}
+
+.modelo {
+    flex: 1;
+    height: auto;
+    margin: -300px 50% 350px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_modelo {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(66, 161, 157);
+    background-color: rgba(9, 187, 104, 0.973);
+    padding: 20px;
+}
+
+.input {
+    border-radius: 5px;
+    border: 2px solid rgb(66, 161, 157);
+    height: 25px;
+}
+
+.right_area {
+    background-color: rgb(67, 96, 214);
+    height: 500px;
+    margin-left: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    padding-top: 100px;
+}
+
+.pedido {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.remove_input, .remove{
+    display: none;
+}
+
+#cronometro, .title {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#cancelar, #concluido, #iniciar {
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(66, 161, 157);
+    border-radius: 10px;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 83px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <span class="container_button">
+            <button class="clonar">Novo pedido</button>
+        </span>
+        <div class="container_area">
+            <div class="modelo remove" id="0">
+                <div class="container_modelo">
+                    <input type="text" class="input" placeholder="Número do pedido">
+                    <h1 class="title"></h1>
+                    <div id="cronometro"><span class="hour">00</span>:<span class="minute">00</span>:<span class="second">00</span></div>
+                    <button id="iniciar">Iniciar</button>
+                    <button id="cancelar">Cancelar</button>
+                    <button id="concluido">Concluído</button>
+                </div>
+            </div>
+            <div class="right_area">
+                <div class="content"><h1>Histórico de pedidos</h1></div>
+            </div>
+        </div>
+    </div>
+    <audio id="alarme" src="clock-alarm-8761.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
